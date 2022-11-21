@@ -17,9 +17,9 @@
  */
 
 /* Includes ------------------------------------------------------------------*/
-#include "common.h"
+#include "..\common.h"
 #include "memory_manager.h"
-#include "list.h"
+#include "linked_list.h"
 
 /* Private typedef -----------------------------------------------------------*/
 /* Private defines -----------------------------------------------------------*/
