@@ -11,7 +11,14 @@
    * A consistent set of middleware libraries such as RTOS, USB, FatFS, graphics, touch sensing library...
    * A full set of software projects (basic examples, applications, and demonstrations) for each board provided for this STM32 series.
 
-The **STM32CubeG0 MCU Package** projects are directly running on the STM32G0 series boards. You can find in each Projects/*Board name* directories a set of software projects (Applications/Demonstration/Examples).
+The **STM32CubeL4 MCU Package** projects are directly running on the STM32L4 series boards. You can find in each Projects/*Board name* directories a set of software projects (Applications/Demonstration/Examples).
+
+## Some middleware libraries are unavailable in this repository
+
+In this repository, the middleware libraries listed below **along with** the projects (demos, applications, and examples) using them, are **not available** as they (the middleware libraries) are subject to some restrictive license terms requiring the user's approval via a "click thu" procedure.
+* `./Middlewares/ST/STemWin`
+
+If needed, they can be found inside the full firmware package available on our website `st.com` and downloadable from [here](https://www.st.com/content/st_com/en/products/embedded-software/mcu-mpu-embedded-software/stm32-embedded-software/stm32cube-mcu-mpu-packages/stm32cubel4.html#get-software). You will be prompted to login or to register in case you have no account.
 
 ## Release note
 
